@@ -1,0 +1,12 @@
+in built functions in string:
+captalize function:it makes capital in the first letter of string.syntax:string.capitalize()
+centre function: example: string.centre(width,fill char)
+endswith: it checks end of the string works like boolean expression(true or false):syntax:string.endswith(str,beg,end)
+         example prg: a.endswith("x",0,len(a))
+count: its used to count the length of string :example:str.count(str,beg,end)
+index()
+lower()
+higher()
+is title()
+max()
+min()
