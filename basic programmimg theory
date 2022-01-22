@@ -1,0 +1,59 @@
+  VARIABLE
+      variable are container for storing data values.
+      python has no command for decalaring variable
+      A variable is created the moment u first assign a value to it
+      ex:
+      x=5
+      y="ram"
+      print(X)
+      print(y)
+      casting:
+      if you want specify the data type of variable
+      ex: x=strstr(3),o/p x='3'
+      y=int(3),o/p y=3
+      z+float(3),o/p z=3.0
+      in costant you cant change the memory location
+      in variable you may change,we can assign value to the variable or we can re assign value to the same vriBLE(we can update the variable)
+ DATA TYPE:                 
+       They are variable use to reserve some space 
+       in memoryA representation of data(int,float,char)
+       is mandatory in use data type for variable
+       a type reprenst two things about a variable
+         what type of data allowed to store
+         how much memory is required to store a data
+   types of data:
+        primitive                                                      non primitive
+              
+      boolean     numeric                                                   string,array
+                charcter                 integral                           structure,classes,etc..
+                                       integer    floating point              
+                                        byte           float
+                                        short           double
+                                        int
+                                        long
+   FUNCTION:
+       Reusuablity,once we write function that function called n"n" of times
+       easy debugging to find error
+   function definition
+       every function should start with 'def' keyword
+       
+   function name should not equal to keyword
+   Every function name wnds with:
+   Every function will return by empty or value
+   * in python declartion of function not necessary
+   arguments/parameters should be equal to function definition
+   example for user defined function :
+        def add(a,b):
+        sum=a+b
+        print("sum")
+   INBUILT FUNCTION:
+      built in function are predefined function 
+      in python we have 68 builtin function
+       example:
+       >>a= "hello"
+       captilize function:
+         
+       >>a.capitalize
+      
+      
+        
