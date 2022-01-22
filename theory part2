@@ -67,11 +67,23 @@ min()
                      tkinter library(ui based application)
          collection of various libraries is called frame work/
          
-        
+        INDEX:
+            List elements can be accessed by index
+            induivual elements in list can be accessed using an index in square bracket
+            ex; my list[m]
+            list indexing is zero based(its starts from zero only)
+                 0     1     2     3
+         ex: a=['cat','mat','rat','egg']
+         >>>a[2]
+         o/p is 'rat'
+        SLICING:
+               omitting the first and last index
+               omitting the first inder:a[:n]
+               omitting the last indexa[m:]
+               both indexs :a[:]  written the copy of entire list
+               skip index:a[0:3]
+               
          
-         
-  
-  
   
   
   
