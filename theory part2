@@ -10,3 +10,83 @@ higher()
 is title()
 max()
 min()
+ 
+ KEYWORDS
+        Keywords are predefined words given  by the interpreter
+        each one has own identity and specific task
+  rules:variable name shpuld not match with keyword
+  some reserved keywords are:
+  
+  and: it performs logic and(compare two conditions)
+  break:its used to terminate variable name in loop
+  del: it is used delete the elements from list
+  def: user defined function
+  elif: else if function for mutiple function
+  else:false statement
+  except: it is used for exception handling
+  class: its used for object oriented programm
+  exec: its excute the python program dynamically
+  finally: its similar like exec
+  for: loop statement
+  global: variable for both main anduser defined function
+  if:for condition
+  import: this keyword import the package to python program( ex: import.math)
+  in: membership operator
+  is:identity operator
+  from: importing the subpackages
+  
+  
+  DATA STRUCTURE:
+         INT
+         FLOAT 
+         STRING -  "   " anything between colon consider as string
+         
+         LIST
+         TUPLE
+         SET
+         DICTIONARY
+         
+         LIST: [] any thing between square bracket consider as list,list is mutable(changable) and can check true or false
+         TUPLE: Tuple is immutable, cant change,add or remove the element.it is unique constraints
+         SET: set() is a union ,intersection and difference,in set we can use either list or tuple.
+         
+         DICTIONARY: different types of meanings for particular word like our normal dictionary.we can add but can change existing.
+                    {} used in dictinary
+               
+         
+         
+        
+         
+         
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
