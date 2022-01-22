@@ -53,7 +53,19 @@ min()
          DICTIONARY: different types of meanings for particular word like our normal dictionary.we can add but can change existing.
                     {} used in dictinary
                
+        MODULE/LIBRARY:
+              In module contains both function and variable
+       'n' no of function=module, 'n no of module=package, 'n' no og package=library       
+         packages: a python package refers directly python modules,modules of one type at one place
+         python packages collection of module under the common names space,this name space is created via directory that contains all related modules
          
+         LIBRARY: satndard libraries are
+                     math module,random module,statistics module
+                     numpy library(no library)
+                     scipy library(science library)
+                     mathplotlib library(mathplot libarary)
+                     tkinter library(ui based application)
+         collection of various libraries is called frame work/
          
         
          
