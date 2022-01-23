@@ -83,7 +83,66 @@ min()
                both indexs :a[:]  written the copy of entire list
                skip index:a[0:3]
                
-         
+         IDENTIFIER  
+             
+             it is used to identify the elements(name in python program is called identifier)
+              example: variable,classes,objects,modules,functions and constants
+            
+         Rules:
+            Variable name should not match with keywords(ex:for,if)
+            every identifier name should start with either character or underscore(_)
+            variable name can be alphanumeric
+            variable name is casesensitive
+            The variable name should not start with digit(123)
+            no length limit restriction for identifier
+            
+       OPERATOR
+           operators are the symbol wwhich tells the python interpreter to do some mathematical or logical operation
+           
+           types of operator:
+               assignment operator(=)
+               arithmetic operator(+ -  * / = % += -+ *+ /= %=)
+               relational operators(<  <= > >=  ==  !=)
+               logical operators(! && ||)
+               bitwise operator(&  |  ~ ^ << >> <<= >>= &= + ^+)
+               increment and decrement operators(++ --)
+               
+            Python follows PEDMAS
+            
+                paranthesis(...)
+                exponents(**)
+                multiplicatin and division(* / // %)
+                Addition and subraction( + -)
+                
+                COMPARISION OPERATORS:
+                (== !+ <> , .  >= <=)
+                
+            Membership operators 
+            
+               test for membership in a sequence,such as string,list or  tuples,
+                there are two membership operators
+                     in(evaluates to true if its find a variable in a specified sequence)
+                     not in(evaluates to true if its does not  find a variable in a specified sequence)
+                     
+                iDENTITY OPERATORS
+                   identity operators compare the memory location of two objects.
+                   
+                   they  are
+                   is(evaluates t0 true if the variable on either side of the operator point to the same object and false otherwise)
+                   is not((evaluates to false if the variable on either side of the operator point to the same object and true otherwise)
+                   
+                
+
+                
+                
+
+                
+           
+           
+            
+
+             
+           
   
   
   
