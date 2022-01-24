@@ -1,0 +1,72 @@
+variable: 
+     its used to store data in memory location(name given to memory location)
+     A python variableis a reserved memory location to  store values(in otherwords variable in python program gives data to computer for processing)
+     A variable is created at the moment we first assign a value to it
+     the value stored in the variable can be changed during program execution
+     all operation done on the variable effects the memory location
+     
+     standard:
+       A variable should be usuable name(related to project or task)
+       ex prg:
+         # a integer assignment
+            age = 30
+         #a floating point
+         salary =  1450.7
+     print(age)
+     print(salary)
+     
+     try to use camel case as much as possible for long variable
+       
+     
+     rules for creating variable
+     
+        A variable must start with letter or(_)
+        (ex)
+        age = 25
+       first_name = ahmed
+       pint(first_name,'is',age,'years old)
+        #o/p: ahmed is 25 years old
+             
+        a variable name caanot  start with a  no
+          (Ex)
+          
+       # 5 apples=100 (cannot assign this method because its started with no)
+       apples_5=100
+       print("price of 5 apple is",apple_5)
+       #o/P:price of 5 apple is 100
+       
+        a variable name can only contain alpha numeric characters and(_)
+        
+         ex prg:(addition of two no)
+        number_1= 10
+        number_2= 5
+        sum = number_1+number_2
+        print(sum)  
+         #o/p:sum=15
+         
+        the variable name are case sensitive
+        (ex)
+        name = sathya
+        Name = nikesh
+        print(name)
+       # output is sathya
+        print(Name)
+       # output is nikesh
+       
+        the reserved word(keyword) caanot be used a variable name
+        #we cannot assign for it else true these word as a variable name
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
