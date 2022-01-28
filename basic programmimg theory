@@ -167,6 +167,12 @@ min()
          collection of various libraries is called frame work/
          
         INDEX:
+        The index() method finds the first occurrence of the specified value.
+       The index() method raises an exception if the value is not found.
+       The index() method is almost the same as the find() method, the only difference is that the find() method returns -1 if the value is not found. 
+    Syntax
+        string.index(value, start, end)
+
             List elements can be accessed by index
             induivual elements in list can be accessed using an index in square bracket
             ex; my list[m]
@@ -186,7 +192,15 @@ min()
              
              it is used to identify the elements(name in python program is called identifier)
               example: variable,classes,objects,modules,functions and constants
-            
+         The identifier is a combination of character digits and underscore. 
+
+        Examples of identifiers:
+
+            var1
+             _var1
+             _1_var
+             var_1 
+    
          Rules:
             Variable name should not match with keywords(ex:for,if)
             every identifier name should start with either character or underscore(_)
@@ -194,6 +208,12 @@ min()
             variable name is casesensitive
             The variable name should not start with digit(123)
             no length limit restriction for identifier
+            
+            Class names start with an uppercase letter. All other identifiers start with a lowercase letter.
+    Starting an identifier with a single leading underscore indicates that the identifier is private.
+    Starting an identifier with two leading underscores indicates a strongly private identifier.
+    If the identifier also ends with two trailing underscores, the identifier is a language-defined special name.
+
             
        OPERATOR
            operators are the symbol wwhich tells the python interpreter to do some mathematical or logical operation
