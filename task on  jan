@@ -1,6 +1,8 @@
+dt:25.01.2022
+
 variable: 
      its used to store data in memory location(name given to memory location)
-     A python variableis a reserved memory location to  store values(in otherwords variable in python program gives data to computer for processing)
+     A python variable is a reserved memory location to  store values(in otherwords variable in python program gives data to computer for processing)
      A variable is created at the moment we first assign a value to it
      the value stored in the variable can be changed during program execution
      all operation done on the variable effects the memory location
@@ -16,8 +18,11 @@ variable:
      print(salary)
      
      try to use camel case as much as possible for long variable
-       
-     
+     camel case will is the pep standard,it removes all spaces and change the case of firstletter in small case and others in upper case
+     Example:
+     input: Welcome to python
+     output in camel case:welcomeToPython
+           
      rules for creating variable
      
         A variable must start with letter or(_)
@@ -57,13 +62,41 @@ variable:
         #we cannot assign for it else true these word as a variable name
         
         
+      differnce between compailer and interpreter:
+      
+            Interpreter
+				                                                      Compiler
+		
+Translates program one statement at a time.         
+				                                        Scans the entire program and translates it as a whole into machine code.	
+Interpreters usually take less amount of time 
+to analyze the source code.
+However, the overall execution time is comparatively         Compilers usually take a large amount of time to analyze the source code.
+                                                                However, the overall execution time is comparatively faster than interpreters.
+		
+slower than compailer				                          
+No Object Code is generated, hence are memory efficient.    Generates Object Code which further requires linking, hence requires more memory. 
+				                                         
+Programming languages like JavaScript, Python.
+				                                          Programming languages like C, C++, Java use compilers.
+		
+       
+        compailer working method:
         
+                   preprocessing                    processing
+       SOURCE CODE-----------------> OBECT CODE---------------------->MACHINE
+       
+       interpeter working method:
+       
         
-        
-        
-        
-        
-        
+                   preprocessing                          processing
+       SOURCE CODE-----------------> INTERMEDIATE CODE---------------------->INTERPRETER
+       
+       
+       
+       
+       
+      
         
         
         
