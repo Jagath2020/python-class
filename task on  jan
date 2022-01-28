@@ -92,7 +92,34 @@ Programming languages like JavaScript, Python.
                    preprocessing                          processing
        SOURCE CODE-----------------> INTERMEDIATE CODE---------------------->INTERPRETER
        
-       
+       KEYWORDS
+  
+        Keywords are predefined words given  by the interpreter
+        each one has own identity and specific task
+        there are 33 keywords in python
+  rules:variable name shpuld not match with keyword
+  
+  some reserved keywords are:
+  
+  and: it performs logic and(compare two conditions)
+  break:its used to terminate variable name in loop
+  del: it is used delete the elements from list
+  def: user defined function
+  elif: else if function for mutiple function
+  else:false statement
+  except: it is used for exception handling
+  class: its used for object oriented programm
+  exec: its excute the python program dynamically
+  finally: its similar like exec
+  for: loop statement
+  global: variable for both main anduser defined function
+  if:for condition
+  import: this keyword import the package to python program( ex: import.math)
+  in: membership operator
+  is:identity operator
+  from: importing the subpackages
+  
+ 
        
        
        
