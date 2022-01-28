@@ -55,5 +55,137 @@
          
        >>a.capitalize
       
-      
+      in built functions in string:
+captalize function:it makes capital in the first letter of string.syntax:string.capitalize()
+centre function: example: string.centre(width,fill char)
+endswith: it checks end of the string works like boolean expression(true or false):syntax:string.endswith(str,beg,end)
+         example prg: a.endswith("x",0,len(a))
+count: its used to count the length of string :example:str.count(str,beg,end)
+index()
+lower()
+higher()
+is title()
+max()
+min()
+ 
+ KEYWORDS
+        Keywords are predefined words given  by the interpreter
+        each one has own identity and specific task
+  rules:variable name shpuld not match with keyword
+  some reserved keywords are:
+  
+  and: it performs logic and(compare two conditions)
+  break:its used to terminate variable name in loop
+  del: it is used delete the elements from list
+  def: user defined function
+  elif: else if function for mutiple function
+  else:false statement
+  except: it is used for exception handling
+  class: its used for object oriented programm
+  exec: its excute the python program dynamically
+  finally: its similar like exec
+  for: loop statement
+  global: variable for both main anduser defined function
+  if:for condition
+  import: this keyword import the package to python program( ex: import.math)
+  in: membership operator
+  is:identity operator
+  from: importing the subpackages
+  
+  
+  DATA STRUCTURE:
+         INT
+         FLOAT 
+         STRING -  "   " anything between colon consider as string
+         
+         LIST
+         TUPLE
+         SET
+         DICTIONARY
+         
+         LIST: [] any thing between square bracket consider as list,list is mutable(changable) and can check true or false
+         TUPLE: Tuple is immutable, cant change,add or remove the element.it is unique constraints
+         SET: set() is a union ,intersection and difference,in set we can use either list or tuple.
+         
+         DICTIONARY: different types of meanings for particular word like our normal dictionary.we can add but can change existing.
+                    {} used in dictinary
+               
+        MODULE/LIBRARY:
+              In module contains both function and variable
+       'n' no of function=module, 'n no of module=package, 'n' no og package=library       
+         packages: a python package refers directly python modules,modules of one type at one place
+         python packages collection of module under the common names space,this name space is created via directory that contains all related modules
+         
+         LIBRARY: satndard libraries are
+                     math module,random module,statistics module
+                     numpy library(no library)
+                     scipy library(science library)
+                     mathplotlib library(mathplot libarary)
+                     tkinter library(ui based application)
+         collection of various libraries is called frame work/
+         
+        INDEX:
+            List elements can be accessed by index
+            induivual elements in list can be accessed using an index in square bracket
+            ex; my list[m]
+            list indexing is zero based(its starts from zero only)
+                 0     1     2     3
+         ex: a=['cat','mat','rat','egg']
+         >>>a[2]
+         o/p is 'rat'
+        SLICING:
+               omitting the first and last index
+               omitting the first inder:a[:n]
+               omitting the last indexa[m:]
+               both indexs :a[:]  written the copy of entire list
+               skip index:a[0:3]
+               
+         IDENTIFIER  
+             
+             it is used to identify the elements(name in python program is called identifier)
+              example: variable,classes,objects,modules,functions and constants
+            
+         Rules:
+            Variable name should not match with keywords(ex:for,if)
+            every identifier name should start with either character or underscore(_)
+            variable name can be alphanumeric
+            variable name is casesensitive
+            The variable name should not start with digit(123)
+            no length limit restriction for identifier
+            
+       OPERATOR
+           operators are the symbol wwhich tells the python interpreter to do some mathematical or logical operation
+           
+           types of operator:
+               assignment operator(=)
+               arithmetic operator(+ -  * / = % += -+ *+ /= %=)
+               relational operators(<  <= > >=  ==  !=)
+               logical operators(! && ||)
+               bitwise operator(&  |  ~ ^ << >> <<= >>= &= + ^+)
+               increment and decrement operators(++ --)
+               
+            Python follows PEDMAS
+            
+                paranthesis(...)
+                exponents(**)
+                multiplicatin and division(* / // %)
+                Addition and subraction( + -)
+                
+                COMPARISION OPERATORS:
+                (== !+ <> , .  >= <=)
+                
+            Membership operators 
+            
+               test for membership in a sequence,such as string,list or  tuples,
+                there are two membership operators
+                     in(evaluates to true if its find a variable in a specified sequence)
+                     not in(evaluates to true if its does not  find a variable in a specified sequence)
+                     
+                iDENTITY OPERATORS
+                   identity operators compare the memory location of two objects.
+                   
+                   they  are
+                   is(evaluates t0 true if the variable on either side of the operator point to the same object and false otherwise)
+                   is not((evaluates to false if the variable on either side of the operator point to the same object and true otherwise)
+
         
