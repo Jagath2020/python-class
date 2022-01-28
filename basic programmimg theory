@@ -14,38 +14,77 @@
       z+float(3),o/p z=3.0
       in costant you cant change the memory location
       in variable you may change,we can assign value to the variable or we can re assign value to the same vriBLE(we can update the variable)
- DATA TYPE:                 
-       They are variable use to reserve some space 
-       in memoryA representation of data(int,float,char)
-       is mandatory in use data type for variable
-       a type reprenst two things about a variable
+      
+ DATA TYPE:  
+       clasification or categorization of data.
+       variable use to reserve some space 
+       in memory representation of data(int,float,char)
+         a type reprenst two things about a variable
          what type of data allowed to store
          how much memory is required to store a data
-   types of data:
-        primitive                                                      non primitive
+         
+   types of dat in python:
+                                                         
               
-      boolean     numeric                                                   string,array
-                charcter                 integral                           structure,classes,etc..
-                                       integer    floating point              
-                                        byte           float
-                                        short           double
-                                        int
-                                        long
+          numeric                 dictionary    boolean     set      sequence type
+          int,float,complex                                         string,list,tuple
+               
+            int:whole number may be negative or positive
+            float:it is real number with floating pont representation(decimal number)
+            complex:it has real part and imginary part(ex:2+3j)
+            
+             dictionary:diffrent types of meaning in particular words.we can add the words but cannot change existing one.
+             (ex)a={1:'test',2:'prac')
+             >>a[2] 
+             o/p is prac
+             
+             boolean:it always check the condition and produce output true or false
+             
+             set: in python unordered collection of data that is iteratable..mutable and has no duplicate elements.
+             its performs union intersection,diffrence
+             Ex: a=set() 
+             
+             string:collection of one or more characters.anything between(' ' " " ) is represented as string.
+             it has single line mutline representation.
+             (Ex)
+             a="char"
+             b"10"
+             c='m'
+             
+             list: which is ordered collection of data.its very flexible ,items in the list do not be in same type.
+             represented in [] ,list is mutable.either we can test true or false
+             ex
+             list['10","c","python"]
+             
+             tuple: tuple is immutable,you cannot change ,add or remove the elements,it is a unique constraints.
+             
+             
+             
    FUNCTION:
-       Reusuablity,once we write function that function called n"n" of times
+   In Python, a function is a group of related statements that performs a specific task.
+
+Functions help break our program into smaller and modular chunks. As our program grows larger and larger, functions make it more organized and manageable.
+
+Furthermore, it avoids repetition and makes the code reusable.
+
+       Reusuablity,once we write function that function called "n" of times
        easy debugging to find error
+       
    function definition
        every function should start with 'def' keyword
        
    function name should not equal to keyword
-   Every function name wnds with:
-   Every function will return by empty or value
-   * in python declartion of function not necessary
+   Every function name ends with:
+      Every function will return by empty or value
+         * in python declartion of function not necessary
    arguments/parameters should be equal to function definition
+   
    example for user defined function :
+      
         def add(a,b):
         sum=a+b
         print("sum")
+        
    INBUILT FUNCTION:
       built in function are predefined function 
       in python we have 68 builtin function
@@ -69,9 +108,12 @@ max()
 min()
  
  KEYWORDS
+  
         Keywords are predefined words given  by the interpreter
         each one has own identity and specific task
+        there are 33 keywords in python
   rules:variable name shpuld not match with keyword
+  
   some reserved keywords are:
   
   and: it performs logic and(compare two conditions)
