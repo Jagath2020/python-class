@@ -280,16 +280,64 @@ from math import factorial
 print(factorial(10))
 Output:3628800
 
+PEP stands for Python Enhancement Proposal. A PEP is a design document providing information to the Python community, or describing a new feature for Python
+or its processes or environment. The PEP should provide a concise technical specification of the feature and a rational for the feature.
+
+Python maintains a strict way of order and format of scripting.Following this sometimes mandatory and is a great help on the user’s end, to understand. 
+Making it easy for others to read code is always a good idea, and adopting a nice coding style helps tremendously for that.
+
+For Python, PEP 8 has emerged as the style guide that most projects adhere to; it promotes a very readable and eye-pleasing coding style. 
+Every Python developer should read it at some point.
+
+Some important points:
+
+1. Use 4-space indentation and no tabs.
+
+    # First line contains no argument. Second line onwards 
+    # more indentation included to distinguish this from  
+    # the rest. 
+    def function_name( 
+            variable_one, variable_two, variable_three, 
+            variable_four): 
+        print(variable_one) 
+
+2. Use docstrings : There are both single and multi-line docstrings that can be used in Python.
+However, the single line comment fits in one line, triple quotes are used in both cases. These are used to define a particular
+program or define a particular function.
+Example:
+
+    def exam(): 
+        """This is single line docstring""" 
+     
+        """This is 
+        a 
+        multiline comment""" 
+
+3. Wrap lines so that they don’t exceed 79 characters : The Python standard library is conservative and requires limiting lines to 79 characters. 
+The lines can be wrapped using parenthesis, brackets, and braces. They should be used in preference to backslashes.
+Example:
+
+    with open('/path/from/where/you/want/to/read/file') as file_one, \ 
+         open('/path/where/you/want/the/file/to/be/written', 'w') as file_two: 
+        file_two.write(file_one.read()) 
+
+4. Use of trailing commas : This is not mandatory except while making a tuple.
+Example:
+
+    tup = ("geek",) 
+
+5. Use Python’s default UTF-8 or ASCII encodings and not any fancy encodings, if it is meant for international environment.
+
+6. Use spaces around operators and after commas, but not directly inside bracketing constructs:
+
+    a = f(1, 2) + g(3, 4) 
+
+7. Naming Conventions : There are few naming conventions that should be followed in order to make the program less complex and more readable. 
+At the same time, the naming conventions in Python is a bit of mess, but here are few conventions that can be followed easily.
 
 
 
 
-
-
-
-
-
-  
   
   DATA TYPE:  
        clasification or categorization of data.
@@ -299,27 +347,65 @@ Output:3628800
          what type of data allowed to store
          how much memory is required to store a data
          
-   types of data in python:
-                                                         
-              
-          numeric                 dictionary    boolean     set      sequence type
-          int,float,complex                                         string,list,tuple
-               
-            int:whole number may be negative or positive
-            float:it is real number with floating pont representation(decimal number)
-            complex:it has real part and imginary part(ex:2+3j)
+          
+      integers – This value is represented by int class. It contains positive or negative whole numbers (without fraction or decimal). 
+      In Python there is no limit for length.
+      
+    Float – This value is represented by float class. It is a real number with floating point representation. It is specified by a decimal point.
+    Optionally, the character e or E followed by a positive or negative integer may be appended to specify scientific notation.
+    
+    Complex Numbers – Complex number is represented by complex class. It is specified as (real part) + (imaginary part)j. For example – 2+3j
+
+example: 
+# demonstrate numeric value
+  
+a = 5
+print("Type of a: ", type(a))
+  
+b = 5.0
+print("\nType of b: ", type(b))
+  
+c = 2 + 4j
+print("\nType of c: ", type(c))
+
+Output:
+
+Type of a:  <class 'int'>
+
+Type of b:  <class 'float'>
+
+Type of c:  <class 'complex'>
+
+
             
-             dictionary:diffrent types of meaning in particular words.we can add the words but cannot change existing one.
-             (ex)a={1:'test',2:'prac')
-             >>a[2] 
-             o/p is prac
-             
-             boolean:it always check the condition and produce output true or false
-             
-             set: in python unordered collection of data that is iteratable..mutable and has no duplicate elements.
-             its performs union intersection,diffrence
-             Ex: a=set() 
-             
+                          
+             boolean:  it always check the condition and produce output true or false
+	         return or convert the value to the Boolean value 
+	      
+
+The bool method returns the following values.
+
+    It returns True if a parameter or value passed is True.
+    It returns False if a parameter or value passed is False.
+    
+    example.
+
+Min = True
+print(bool(Min)) 
+
+Max = False
+print(bool(Max)) 
+
+x = 19
+y = 11
+print(bool(x==y))
+
+output.
+
+True
+False
+False
+          
              string:collection of one or more characters.anything between(' ' " " ) is represented as string.
              it has single line mutline representation.
              (Ex)
