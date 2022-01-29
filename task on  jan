@@ -18,7 +18,7 @@ variable:
      print(salary)
      
      try to use camel case as much as possible for long variable
-     camel case will is the pep standard,it removes all spaces and change the case of firstletter in small case and others in upper case
+     camel case is the pep standard,it removes all spaces and change the case of firstletter in small case and others words first lettrer in upper case
      Example:
      input: Welcome to python
      output in camel case:welcomeToPython
@@ -460,27 +460,294 @@ hello world welcome to python
 <class 'str'>
 
 Creating a multiline String: 
-Geeks 
+
             hello
 	    world 
             python
 
  
+accessing elements of String:
 
-ccessing elements of String
+ String can be accessed by using the method of Indexing. Indexing allows negative address references to access characters 
+ from the back of the String.
 
-In Python, individual characters of a String can be accessed by using the method of Indexing. Indexing allows negative address references to access characters from the back of the String, e.g. -1 refers to the last character, -2 refers to the second last character and so on.
+string indexing
 
-Python string indexing
-
-
+    H  E  L  L  O  W  O  R  L  D
+    0  1  2  3  4  5  6  7  8  9  ------->FORWARD INDEXING
+   -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 ---------- >BACKWARD INDEXIMG
  
-  
- 
-       
-       
-       
+    -----------------------------------------------------
+      dt:26.01.2022
+      -------------------------------------------------
       
+     OPERATORS:
+     Operators are special symbols  that carry out arithmetic or logical computation. 
+     The value that the operator operates on is called the operand.
+
+
+     comparision operator:
+     
+     Comparison operators are used to compare values. It returns either True or False according to the condition.
+     
+Operator
+						Example
+		
+>
+				Greater than - True if left operand is greater than the right
+				(x > y)
+		
+<
+				Less than - True if left operand is less than the right
+				(x < y)
+		
+
+==				Equal to - True if both operands are equal
+				(x == y)
+		
+
+!=				Not equal to - True if operands are not equal
+				(x != y)
+		
+
+>=				Greater than or equal to - True if left operand is greater than or equal to the right
+				(x >= y)
+		
+
+<=				Less than or equal to - True if left operand is less than or equal to the right
+				(x <= y)
+		
+Example :
+
+x = 5
+y = 10
+
+# Output: x > y is False
+print("x > y is",x>y)
+
+# Output: x < y is True
+print("x < y is",x<y)
+
+# Output: x == y is False
+print("x == y is",x==y)
+
+# Output: x != y is True
+print("x != y is",x!=y)
+
+# Output: x >= y is False
+print("x >= y is",x>=y)
+
+# Output: x <= y is True
+print("x <= y is",x<=y)
+
+Output
+
+x > y is False
+x < y is True
+x == y is False
+x != y is True
+x >= y is False
+x <= y is True
+
+Logical operators:
+
+Logical operators are the and, or, not operators.
+
+
+operator			meaning	
+				
+		
+
+and				True if both the operands are true
+				(x and y)
+		
+
+or				True if either of the operands is true
+				(x or y)
+		
+
+not				True if operand is false (complements the operand)
+				(not x)
+		
+Example:
+
+x = True
+y = False
+
+print('x and y is',x and y)
+
+print('x or y is',x or y)
+
+print('not x is',not x)
+
+Output
+
+x and y is False
+x or y is True
+not x is False
+
+Bitwise operators
+
+They operate bit by bit.Bitwise operators act on operands as if they were strings of binary digits. 
+
+
+Let x = 10 (0000 1010 in binary) and y = 4 (0000 0100 in binary)
+
+operator				Meaning
+						
+
+&				Bitwise AND
+				x & y = 0 (0000 0000)
+		
+
+|				Bitwise OR
+				x | y = 14 (0000 1110)
+		
+
+~				Bitwise NOT
+				~x = -11 (1111 0101)
+		
+^
+				Bitwise XOR
+				x ^ y = 14 (0000 1110)
+		
+>>
+				Bitwise right shift
+				x >> 2 = 2 (0000 0010)
+		
+<<
+				Bitwise left shift
+				x << 2 = 40 (0010 1000)
+		
+Assignment operators
+
+Assignment operators are used to assign values to variables.
+
+a = 10 is a simple assignment operator that assigns the value 10 on the right to the variable a on the left.
+
+There are various compound operators in Python like a += 5 that adds to the variable and later assigns the same. It is equivalent to a = a + 5.
+
+operator		
+				Equivalent to
+		
+
+=				x = 5
+				x = 5
+		
+
++=				x += 5
+				x = x + 5
+		
+
+-=				x -= 5
+				x = x - 5
+		
+
+*=				x *= 5
+				x = x * 5
+		
+
+/=				x /= 5
+				x = x / 5
+		
+
+%=				x %= 5
+				x = x % 5
+		
+
+				x //= 5
+//=				x = x // 5
+		
+
+				x **= 5
+**=				x = x ** 5
+		
+
+				x &= 5
+&=				x = x & 5
+		
+
+				x |= 5
+|=				x = x | 5
+		
+
+^=				x ^= 5
+				x = x ^ 5
+		
+
+>>=				x >>= 5
+				x = x >> 5
+		
+
+				x <<= 5
+<<=				x = x << 5
+
+
+
+MEMBERSHIP OPERATORS:
+		
+
+      in and not in are the membership operators in Python. They are used to test whether a value or variable is 
+      found in a sequence (string, list, tuple, set and dictionary).
+
+
+
+operator				Meaning
+				
+		
+in
+				True if value/variable is found in the sequence
+				(5 in x)
+		
+not in
+				True if value/variable is not found in the sequence
+				(5 not in x)
+		
+Example : program using string
+
+x = 'Hello world'
+
+
+# Output: True
+print('H' in x)
+
+# Output: True
+print('python' not in x)
+
+Output
+
+True
+True
+
+
+TERNARY OPERATORS:
+
+     Ternary operators are also known as conditional expressions are operators that evaluate something based on a condition being true or false. 
+     
+       note:  First the given condition is evaluated (a < b), then either a or b is returned based on the Boolean value returned by the condition.
+    order of the arguments in the operator is different from other languages like C/C++ 
+    Conditional expressions have the lowest priority compare than all python operations.
+
+
+Example:
+a=10
+b=20
+
+
+if a != b:
+    if a > b:
+        print("a is greater than b")
+    else:
+        print("b is greater than a")
+else:
+    print("Both a and b are equal")
+
+Output:
+
+ b is greater than a
+
+          
+
         
         
         
