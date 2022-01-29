@@ -352,21 +352,21 @@ At the same time, the naming conventions in Python is a bit of mess, but here ar
       In Python there is no limit for length.
       
     Float – This value is represented by float class. It is a real number with floating point representation. It is specified by a decimal point.
-    Optionally, the character e or E followed by a positive or negative integer may be appended to specify scientific notation.
-    
-    Complex Numbers – Complex number is represented by complex class. It is specified as (real part) + (imaginary part)j. For example – 2+3j
+        
+    Complex Numbers – Complex number is represented by complex class. It is specified as (real part) + (imaginary part)j.
+    For example –( 2+3j)
 
 example: 
-# demonstrate numeric value
+#numeric value
   
 a = 5
 print("Type of a: ", type(a))
   
 b = 5.0
-print("\nType of b: ", type(b))
+print("Type of b: ", type(b))
   
 c = 2 + 4j
-print("\nType of c: ", type(c))
+print("Type of c: ", type(c))
 
 Output:
 
@@ -374,13 +374,10 @@ Type of a:  <class 'int'>
 
 Type of b:  <class 'float'>
 
-Type of c:  <class 'complex'>
+Type of c:  <class 'complex
 
-
-            
-                          
-             boolean:  it always check the condition and produce output true or false
-	         return or convert the value to the Boolean value 
+boolean:  it always check the condition and produce output true or false
+  return or convert the value to the Boolean value 
 	      
 
 The bool method returns the following values.
@@ -405,22 +402,78 @@ output.
 True
 False
 False
-          
-             string:collection of one or more characters.anything between(' ' " " ) is represented as string.
-             it has single line mutline representation.
-             (Ex)
-             a="char"
-             b"10"
-             c='m'
-             
-             list: which is ordered collection of data.its very flexible ,items in the list do not be in same type.
-             represented in [] ,list is mutable.either we can test true or false
-             ex
-             list['10","c","python"]
-             
-             tuple: tuple is immutable,you cannot change ,add or remove the elements,it is a unique constraints.
-             
-             
+
+        
+STRING:                       
+        Strings are arrays of bytes representing Unicode characters. A string is a collection of one or more characters
+	put in a single quote, double-quote or triple quote. In python there is no character data type, a character is a string of length one.
+	its represented in str class.
+	
+	Creating String
+
+Strings in Python can be created using single quotes or double quotes or even triple quotes.
+
+
+
+# Python Program for 
+# Creation of String 
+    
+# Creating a String  
+# with single Quotes 
+String1 = 'Welcome to python'
+print("String with the use of Single Quotes: ") 
+print(String1) 
+    
+# Creating a String 
+# with double Quotes 
+String1 = "hello world"
+print("\nString with the use of Double Quotes: ") 
+print(String1) 
+print(type(String1))
+    
+# Creating a String 
+# with triple Quotes 
+String1 = '''hello world welcome to python''
+print("\nString with the use of Triple Quotes: ") 
+print(String1) 
+print(type(String1))
+  
+# Creating String with triple 
+# Quotes allows multiple lines 
+String1 = '''hello 
+            world 
+            python'''
+print("\nCreating a multiline String: ") 
+print(String1) 
+
+Output:
+
+String with the use of Single Quotes: 
+Welcome to the python
+
+String with the use of Double Quotes: 
+hello world
+<class 'str'>
+
+String with the use of Triple Quotes: 
+hello world welcome to python
+<class 'str'>
+
+Creating a multiline String: 
+Geeks 
+            hello
+	    world 
+            python
+
+ 
+
+ccessing elements of String
+
+In Python, individual characters of a String can be accessed by using the method of Indexing. Indexing allows negative address references to access characters from the back of the String, e.g. -1 refers to the last character, -2 refers to the second last character and so on.
+
+Python string indexing
+
+
  
   
  
