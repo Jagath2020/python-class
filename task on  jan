@@ -151,28 +151,23 @@ for i in range(10):
     if i == 6:
         break
    print()
-    control to the statement following immediately after loop.
-    
+       
        while: Has a similar working like “for”, used to control flow and for looping.
     continue: “continue” is also used to control the flow of code. The keyword skips the current iteration of the loop but does not end the loop.
 
 Example:
-# loop from 1 to 10
-i = 0
-while i <10:
-      
-    # If i is equals to 6,
-    # continue to next iteration
-    # without printing
-    if i == 6:
-        i+= 1
-        continue
-    else:
-        # otherwise print the value
-        # of i
-        print(i, end = " ")
-          
-    i += 1
+# square of given no
+n=int(raw_input())
+i=0
+while(i<n)
+print(i*i)
+i+=1
+
+#inputn=3
+#output:
+0
+1
+4
 
   
 Conditional keywords – if, else, elif
