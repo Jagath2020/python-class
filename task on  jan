@@ -1,7 +1,7 @@
 dt:24.01.2022
 
 variable: 
-     its used to store data in memory location(name given to memory location)
+     store data in memory location(name given to memory location)
      A python variable is a reserved memory location to  store values(in otherwords variable in python program gives data to computer for processing)
      A variable is created at the moment we first assign a value to it
      the value stored in the variable can be changed during program execution
@@ -220,7 +220,7 @@ Example: Class Keyword
 With
 
 with keyword is used to wrap the execution of block of code within methods defined by context manager.
-.
+
 Example: With Keyword
 
 # using with statement
@@ -319,11 +319,6 @@ Example:
 
 3. Wrap lines so that they don’t exceed 79 characters : The Python standard library is conservative and requires limiting lines to 79 characters. 
 The lines can be wrapped using parenthesis, brackets, and braces. They should be used in preference to backslashes.
-Example:
-
-    with open('/path/from/where/you/want/to/read/file') as file_one, \ 
-         open('/path/where/you/want/the/file/to/be/written', 'w') as file_two: 
-        file_two.write(file_one.read()) 
 
 4. Use of trailing commas : This is not mandatory except while making a tuple.
 Example:
@@ -360,12 +355,7 @@ Use blank lines in functions, sparingly, to indicate logical sections.
     # Wrong:
     import sys, os
 
-    It's okay to say this though:
-
-    # Correct:
-    from subprocess import Popen, PIPE
-
-    Imports are always put at the top of the file, just after any module comments and docstrings, and before module globals and constants.
+     **Imports are always put at the top of the file, just after any module comments and docstrings, and before module globals and constants.
 
     Imports should be grouped in the following order:
         Standard library imports.
@@ -375,7 +365,7 @@ Use blank lines in functions, sparingly, to indicate logical sections.
 String Quotes
 
 In Python, single-quoted strings and double-quoted strings are the same. 
-This PEP does not make a recommendation for this. Pick a rule and stick to it. When a string contains single or double quote characters, 
+This PEP does not make a recommendation for this. When a string contains single or double quote characters, 
 however, use the other one to avoid backslashes in the string. It improves readability.
 
 For triple-quoted strings, always use double quote characters to be consistent with the docstring convention in PEP 257.
@@ -520,7 +510,7 @@ FILES = 'setup.cfg',
 
 Comments
 
-Comments that contradict the code are worse than no comments. Always make a priority of keeping the comments up-to-date when the code changes!
+Comments that contradict the code are worse than no comments. Always make a priority of keeping the comments up-to-date when the code changes.
 
 Comments should be complete sentences. The first word should be capitalized, unless it is an identifier that begins with a lower case letter
 (never alter the case of identifiers!).
@@ -561,7 +551,7 @@ The following naming styles are commonly distinguished:
 
     UPPER_CASE_WITH_UNDERSCORES
 
-    CapitalizedWords (or CapWords, or CamelCase -- so named because of the bumpy look of its letters [4]). This is also sometimes known as StudlyCaps.
+    CapitalizedWords (or CapWords, or CamelCase )
 
     Prescriptive: Naming Conventions
 Names to Avoid
@@ -598,8 +588,7 @@ Function Annotations
 
     Function annotations should use PEP 484 syntax.
 
-    The experimentation with annotation styles that was recommended previously in this PEP is no longer encouraged.
-
+   
     However, outside the stdlib, experiments within the rules of PEP 484 are now encouraged. For example, marking up a large third party library or 
     application with PEP 484 style type annotations, reviewing how easy it was to add those annotations, and observing whether their presence 
     increases code understandability.
@@ -1045,31 +1034,33 @@ else:
 Output:
 
  b is greater than a
+ 
+ 
 
 PRINT:
 
-Its used to display the output
 
 The print() function prints the given object to the standard output device (screen) or to the text stream file.
 
-Example
 
-message = 'Python is fun'
+print() Parameters
 
-# print the string message
-print(message)
-
-
-# Output: Python is fun
-
-print() Syntax
+    objects - object to the printed. * indicates that there may be more than one object
+    
+    sep - objects are separated by sep. Default value: ' '
+    
+    end - end is printed at last
 
 The full syntax of print() is:
 
 print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 
+print() Return Value:
 
-Example 1: How print() works in Python?
+It doesn't return any value; returns None.
+
+
+Example 1: How print() works 
 
 print("Python is fun.")
 
@@ -1092,10 +1083,9 @@ a = 5 = b
 Hence,
 
     ' ' separator is used. Notice the space between two objects in the output.
+    
     end parameter '\n' (newline character) is used. Notice, each print statement displays the output in the new line.
-    file is sys.stdout. The output is printed on the screen.
-    flush is False. The stream is not forcibly flushed.
-
+ 
 Example 2: print() with separator and end parameters
 
 a = 5
