@@ -1,3 +1,6 @@
+----------------------------------------------------------------------
+    DATA TYPE CONVERSION (INT TO FLOAT/BOOL/STRING)
+----------------------------------------------------------------    
 
 #data type type conversion int to float/bool/str
 
@@ -22,6 +25,10 @@ val1 = str(val)
 print("The str output is:", val1)
 print(type(val1))
 
+
+----------------------------------------------------------------------
+    DATA TYPE CONVERSION (BOOL TO INT/FLOAT/STRING)
+----------------------------------------------------------------    
 
 
 #data type conversion bool in int/float/str
@@ -48,6 +55,9 @@ print("The str output is:", val1)
 print(type(val1))
 
 
+----------------------------------------------------------------------
+    DATA TYPE CONVERSION (FLOAT TO INT/BOOL/STRING)
+----------------------------------------------------------------    
 
 
 #data type type conversion float to int/bool/str
@@ -73,6 +83,10 @@ val1 = str(val)
 print("The str output is:", val1)
 print(type(val1))
 
+  ----------------------------------------------------------------------
+    PRG TO CALCULATE AREA OF CIRCLE WITH RADIUS FLOAT
+----------------------------------------------------------------    
+
 
 #write a program to calculate area of circle with radius (float)
 
@@ -86,6 +100,9 @@ Area = pi*radius*radius
 #print the output of radius
 print("The area of circle is:",Area)
 
+----------------------------------------------------------------------
+    PRG TO CALCULATE PERIMETER OF CIRCLE 
+----------------------------------------------------------------    
 
 
 #program to calculate perimeter of the circle with radius 10.2
@@ -98,6 +115,10 @@ radius=10.2
 perimeter = 2*pi*radius
 #print the output of perimeter
 print("The perimeter of circle is:",perimeter)
+
+----------------------------------------------------------------------
+    PRG TO CALCULATE PERIMETER OF CIRCLE USING INPUT METHOD
+----------------------------------------------------------------    
 
 
 #write a program to calculate perimeter of the cricle with radius (float) (collect it through input function)
@@ -112,6 +133,9 @@ perimeter=2*pi*radius
 #print the output
 print("perimeter of the circle is",perimeter)
 
+----------------------------------------------------------------------
+    PRG TO CALCULATE AREA OF THE CONE
+----------------------------------------------------------------    
 
 
 #collect radius and height from user,
