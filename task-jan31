@@ -1,1 +1,102 @@
 
+#data type type conversion int to float/bool/str
+
+#int value assignment
+val = 10
+
+#int to float conversion
+val1 = float(val)
+#print the float output
+print("The float output is:", val1)
+print(type(val1))
+
+#int to bool conversion
+val1 = bool(val)
+#print the bool output
+print("The bool output is:", val1)
+print(type(val1))
+
+#int to str conversion
+val1 = str(val)
+#print the str output
+print("The str output is:", val1)
+print(type(val1))
+
+
+
+#data type conversion bool in int/float/str
+
+#bool value assignment
+val = True
+
+#bool to int conversion
+val1 = int(val)
+#print the int output
+print("The int output is:", val1)
+print(type(val1))
+
+#bool to float conversion
+val1 = float(val)
+#print the float output
+print("The float output is:", val1)
+print(type(val1))
+
+#bool to str conversion
+val1 = str(val)
+#print the str output
+print("The str output is:", val1)
+print(type(val1))
+
+
+
+
+#data type type conversion float to int/bool/str
+
+#float value assignment
+val = 10.52
+
+#float to int conversion
+val1 = int(val)
+#print the int output
+print("The int output is:", val1)
+print(type(val1))
+
+#float to bool conversion
+val1 = bool(val)
+#print the bool output
+print("The bool output is:", val1)
+print(type(val1))
+
+#float to str conversion
+val1 = str(val)
+#print the str output
+print("The str output is:", val1)
+print(type(val1))
+
+
+#write a program to calculate area of circle with radius (float)
+
+#variable assignment
+pi = 3.14
+
+#float input assignment
+radius = float(input("enter the float input of radius:"))
+#calculate the area of circle
+Area = pi*radius*radius
+#print the output of radius
+print("The area of circle is:",Area)
+
+
+
+#program to calculate perimeter of the circle with radius 10.2
+
+#variable declaration
+pi = 3.14
+radius=10.2
+
+#calculate the perimeter of circle
+perimeter = 2*pi*radius
+#print the output of perimeter
+print("The perimeter of circle is:",perimeter)
+
+
