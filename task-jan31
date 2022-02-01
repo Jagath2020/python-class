@@ -100,3 +100,14 @@ perimeter = 2*pi*radius
 print("The perimeter of circle is:",perimeter)
 
 
+#write a program to calculate perimeter of the cricle with radius (float) (collect it through input function)
+
+#variable assignment
+pi=3.14
+#float input assignment
+radius=float(input("enter the value of radius in float:"))
+#calculate the value of perimeter
+perimeter=2*pi*radius
+
+#print the output
+print("perimeter of the circle is",perimeter)
