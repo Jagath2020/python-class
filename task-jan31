@@ -25,6 +25,15 @@ val1 = str(val)
 print("The str output is:", val1)
 print(type(val1))
 
+#output
+
+The float output is: 10.0
+<class 'float'>
+The bool output is: True
+<class 'bool'>
+The str output is: 10
+<class 'str'>
+
 
 ----------------------------------------------------------------------
     DATA TYPE CONVERSION (BOOL TO INT/FLOAT/STRING)
@@ -53,6 +62,14 @@ val1 = str(val)
 #print the str output
 print("The str output is:", val1)
 print(type(val1))
+
+#output
+The int output is: 1
+<class 'int'>
+The float output is: 1.0
+<class 'float'>
+The str output is: True
+<class 'str'>
 
 
 ----------------------------------------------------------------------
@@ -83,6 +100,15 @@ val1 = str(val)
 print("The str output is:", val1)
 print(type(val1))
 
+#output
+The float output is: 10.0
+<class 'float'>
+The bool output is: True
+<class 'bool'>
+The str output is: 10
+<class 'str'>
+
+
   ----------------------------------------------------------------------
     PRG TO CALCULATE AREA OF CIRCLE WITH RADIUS FLOAT
 ----------------------------------------------------------------    
@@ -100,6 +126,11 @@ Area = pi*radius*radius
 #print the output of radius
 print("The area of circle is:",Area)
 
+#output
+
+enter the float input of radius:5.5
+The area of circle is: 94.985
+
 ----------------------------------------------------------------------
     PRG TO CALCULATE PERIMETER OF CIRCLE 
 ----------------------------------------------------------------    
@@ -115,6 +146,10 @@ radius=10.2
 perimeter = 2*pi*radius
 #print the output of perimeter
 print("The perimeter of circle is:",perimeter)
+
+#output
+The perimeter of circle is: 64.056
+
 
 ----------------------------------------------------------------------
     PRG TO CALCULATE PERIMETER OF CIRCLE USING INPUT METHOD
@@ -132,6 +167,11 @@ perimeter=2*pi*radius
 
 #print the output
 print("perimeter of the circle is",perimeter)
+
+#output
+
+enter the value of radius in float:3.7
+perimeter of the circle is 23.236
 
 ----------------------------------------------------------------------
     PRG TO CALCULATE AREA OF THE CONE
@@ -154,5 +194,10 @@ Area1 = int(Area)
 #print the output of area
 print("The area of the cone is:", Area1)
 
+#output
+
+entert the value of radius:4
+enter the value of height:6
+The area of the cone is: 99
 
 
