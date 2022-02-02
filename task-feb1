@@ -16,6 +16,11 @@ print(Area)
 #print the output of radius in format method
 print("the area of circle is {1} with radius {0}".format(radius,Area))
 
+#ouput
+enter the float input of radius:4.5
+63.585
+the area of circle is 63.585 with radius 4.5
+
 
 ----------------------------------------------------------------------
     PROGRAM FOR AREA OF THE CONE (PRINT FORMAT METHOD)
@@ -40,6 +45,13 @@ print( Area1)
 #print the output in format method
 print("the area of cone is {0} with radius {2} and height {1}".format(Area1,height,radius))
 
+#output
+entert the value of radius:4
+enter the value of height:5
+82
+the area of cone is 82 with radius 4 and height 5
+
+
 ----------------------------------------------------------------------
     PROGRAM FOR PERIMETER OF CIRCLE(PRINT FORMAT METHOD)
 ----------------------------------------------------------------    
@@ -57,6 +69,11 @@ perimeter = 2*pi*radius
 print(perimeter)
 #print the output of perimeter in format way
 print("the perimeter of circle with radius {} and perimeter is {}".format(radius,perimeter))
+
+#output
+enter the value of radius in float:4.2
+26.376
+the perimeter of circle with radius 4.2 and perimeter is 26.376
 
 
 ----------------------------------------------------------------------
@@ -77,6 +94,10 @@ print(perimeter)
 #print the output of perimeter in format way
 print(f"the perimeter of circle with radius {radius} and perimeter is {perimeter}")
 
+#output
+64.056
+the perimeter of circle with radius 10.2 and perimeter is 64.056
+
 
 ----------------------------------------------------------------------------------
                       MIDDLE OF STRING
@@ -86,16 +107,22 @@ print(f"the perimeter of circle with radius {radius} and perimeter is {perimeter
 # collect a string from user\identify the middle character of the string 
 
 #str input assignment
-str = input("enter the input string:")
+var = input("enter the input string:")
 
 #calculate the middle of string
-str1 = (len (str)/2)
+mid = (len (var)//2)
 
-#print tne output
-print("The middle of the string is:",str1)
-
+#print tne middle of the string
+print(mid)
+print("the middle of the string is", var[mid])
 #print output in format method
-print("The middle of the string is {} and input is {}".format(str1,str))
+print("The middle of the string is {} and input is {}".format(var[mid],var))
+
+#ouput
+enter the input string:welcomepython
+6
+the middle of the string is e
+The middle of the string is e and input is welcomepython
 
 
 ----------------------------------------------------------------------
@@ -126,6 +153,21 @@ print(var[5:])
 print(var[8:12])
 print(var[12:5])
 
+#output
+yt
+pytho
+ret
+pyt
+hon_interpreter
+python_interpreter
+hon_int
+tho
+python_int
+n_interp
+thon_i
+python_i
+n_interpreter
+nter
 
 
 
