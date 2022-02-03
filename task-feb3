@@ -1,0 +1,89 @@
+#string slicing concept type1
+
+#input string assignment
+var = "information_Technology"
+
+#print the slicing output
+
+print(var[3:10])
+print(var[2:5])
+print(var[0:10])
+print(var[5:-5])
+print(var[2:8])
+print(var[:8])
+print(var[5:])
+print(var[8:12])
+print(var[:])
+print(var[12:5])
+
+#output
+ormatio
+omto
+oao
+mation_Techn
+mto_eh
+mnh
+ir
+mi_cog
+ifrainTcnlg
+empty
+
+#string slicing concept type 2
+
+#input string assignment
+var = "information_Technology"
+
+#print the slicing output
+
+print(var[3:10:1])
+print(var[3:10:2])
+print(var[3:10:3])
+print(var[5:-5:1])
+print(var[5:-5:2])
+print(var[5:-5:5])
+print(var[:8:4])
+print(var[5::3])
+print(var[::2])
+print(var[12:5:3])
+
+#output
+ormatio
+omto
+oao
+mation_Techn
+mto_eh
+mnh
+ir
+mi_cog
+ifrainTcnlg
+empty
+
+#string slicing concept type3
+
+#input string assignment
+var = "information_Technology"
+
+#print the slicing output
+
+print(var[2:-2:2])
+print(var[2:-2:-2])
+print(var[-2:2:2])
+print(var[-2:2:-2])
+print(var[3:-3:3])
+print(var[3:-3:-3])
+print(var[-3:3:3])
+print(var[-3:3:-3])
+
+#output
+frainTcnl
+empty
+empty
+glncTniar
+oaoThl
+empty
+empty
+onentr
+
+
+
+
