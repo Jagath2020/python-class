@@ -1,0 +1,179 @@
+#string slicing 
+
+#input string assignment
+var = "information_Technology"
+
+#print the output
+print(var[-2:0:-1])
+print(var[5:-5:5])
+print(var[-5:5:-5])
+print(var[5:-5:-5])
+print(var[3:9:-1])
+print(var[9:-10:-2])
+print(var[2:-4:-4])
+print(var[-4:2:-2])
+print(var[0:-1:-3])
+print(var[-3:3:6])
+print(var[::-3])
+print(var[::-2])
+print(var[2:-2:-2])
+print(var[2:-2:2])
+print(var[5:-5:5])
+print(var[3:-3:3])
+print(var[::2])
+print(var[::-5])
+
+#output
+
+golonhceT_noitamrofn
+mnh
+oTt
+empty
+empty
+empty
+empty
+lncTniar
+empty
+empty
+ylhToaoi
+yoohe_otmon
+empty
+frainTcnl
+mnh
+oaoThl
+ifrainTcnlg
+yn_an
+
+
+#string slicing concept
+#input string assignment
+var = "python_is_using_interpreter"
+
+#print the output
+print(var[-2:0:-1])
+print(var[5:-5:5])
+print(var[-5:5:-5])
+print(var[5:-5:-5])
+print(var[3:9:-1])
+print(var[9:-10:-2])
+print(var[2:-4:-4])
+print(var[-4:2:-2])
+print(var[0:-1:-3])
+print(var[-3:3:6])
+print(var[::-3])
+print(var[::-2])
+print(var[2:-2:-2])
+print(var[2:-2:2])
+print(var[5:-5:5])
+print(var[3:-3:3])
+print(var[::2])
+print(var[::-5])
+
+#output
+eterpretni_gnisu_si_nohty
+nu_r
+rnii
+empty
+empty
+empty
+empty
+epen_ns_inh
+empty
+empty
+rerngssnt
+rtrrtigius_otp
+empty
+to_suigitrrt
+nu_r
+h__i_tp
+pto_suigitrrtr
+rpis_y
+
+    
+#string slicing concept 
+#input string assignment
+var = "computer science"
+
+#print the output
+print(var[-10:10:3])
+print(var[-5:-1:1])
+print(var[-8:-2:10])
+print(var[5::3])
+print(var[:5:2])
+print(var[10:14:2])
+print(var[-10:-3:3])
+print(var[5:12:5])
+print(var[3:-3:3])
+print(var[-5:-3:20])
+
+#output
+es
+ienc
+empty
+t ic
+cmu
+ce
+ese
+tc
+pese
+i
+
+#string slicing concept 
+#input string assignment
+var = "information_Technology"
+
+#print the output
+print(var[-10:10:3])
+print(var[-5:-1:1])
+print(var[-8:-2:10])
+print(var[5::3])
+print(var[:5:2])
+print(var[10:14:2])
+print(var[-10:-3:3])
+print(var[5:12:5])
+print(var[3:-3:3])
+print(var[-5:-3:20])
+
+#output
+empty
+olog
+c
+mi_cog
+ifr
+nT
+Thl
+mn
+oaoThl
+o
+
+
+#string slicing concept 
+#input string assignment
+var = "Google_chrome_browser"
+
+#print the output
+print(var[-10:10:3])
+print(var[-5:-1:1])
+print(var[-8:-2:10])
+print(var[5::3])
+print(var[:5:2])
+print(var[10:14:2])
+print(var[-10:-3:3])
+print(var[5:12:5])
+print(var[3:-3:3])
+print(var[-5:-3:20])
+
+#output
+empty
+owse
+_
+ehmbwr
+Gol
+oe
+mbw
+eo
+g_rer
+o
+
+
+
