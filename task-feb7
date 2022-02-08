@@ -33,6 +33,33 @@ python
 **python
 java*******
 
+#task3: (name<space>float)
+
+#collect three strings from user  name<space>float
+
+#string1: "ravi 10.30"  
+#string2: "meghala 12.19"
+#string3: "Gokul 20.20"
+
+#input sring assignment
+string1 = input("enter the string1:",)
+string2 = input("enter the string2:",)
+string3 = input("enter the string3:",)
+
+a = string1.split()
+b = string2.split()
+c = string3.split()
+#print the splitted output
+print(a,b,c)
+print(float(a[1])+float(b[1])+float(c[1]))
+
+#output
+enter the string1:ravi 10.30
+enter the string2:megala 12.19
+enter the string3:gokul 20.20
+['ravi', '10.30'] ['megala', '12.19'] ['gokul', '20.20']
+42.69
+
 #task4
 
 #collect two strings from user
@@ -67,7 +94,7 @@ jythonpava64hv
 
 
 
-#task6
+#task5
 #Collect two strings from user
 
 #string1: wikipedia
@@ -90,6 +117,23 @@ print(res)
 enter the string1:wikipedia
 enter the string1:typeprint
 211
+
+#task5
+#collect one string from user:
+
+#input string from user
+str1 = input("enter the string:")
+#calculating length of the string
+x = len (str1[1:-1])
+#print the output
+output = str1[0]+str(x)+str1[-1]
+print(output)
+
+#output
+enter the string:computer
+c6r
+enter the string:mathematics
+m9s
 
 #task 7
 
