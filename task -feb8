@@ -1,5 +1,4 @@
 #METHOD1:
-
 #Create an empty list (two ways)
 #Concatenate with [5,6,7,8]
 #add 8,9,1,5,6,7,8,1 elements to that list
@@ -12,13 +11,19 @@
 #creating empty list1(method1)
 list1 = []
 
-#Concatenate with [5,6,7,8]
+#creating empty list1(method2)
+list2 = list(())
+
+#Concatenate with [5,6,7,8] in list1
 new_list1 = [5,6,7,8]
 list1.extend(new_list1)
+print(list1)
 
-#add 8,9,1,5,6,7,8,1 elements to that list
+#add 8,9,1,5,6,7,8,1 elements to that list2
 new_list2 = [8,9,1,5,6,7,8,1]
-list1.extend(new_list2)
+list2.extend(new_list2)
+print(list2)
+list1.extend(list2)
 print("the input list is:",list1)
 
 #Find frequency of 8 (count)
@@ -39,12 +44,17 @@ median = (len(list1)//2)
 print("the median of the list is:",median)
 
 #remove duplicates from list and give output in the format of tuple
-del list1[7:]
-list1.remove(8)       
+del list1[7:]#deleting elements by index values
+list1.remove(8) #reove the elements in list      
 print("the dupicate removed list is:",list1)
 #convert list in to tuple
 tub = tuple(list1)
 print("the final output is in tuple:",tub,type(tub))
+
+
+
+
+
 
 #output
 
@@ -55,45 +65,4 @@ the sum of the list1 is 71 ,max is 9 and min is 1
 the median of the list is: 6
 the dupicate removed list is: [5, 6, 7, 8, 9, 1]
 the final output is in tuple: (5, 6, 7, 8, 9, 1) <class 'tuple'>
-
-#METHOD2:
-
-#creating empty list (method2)
-list1 = list(())
-
-#Concatenate with [5,6,7,8]
-new_list1 = [5,6,7,8]
-list1.extend(new_list1)
-
-#add 8,9,1,5,6,7,8,1 elements to that list
-new_list2 = [8,9,1,5,6,7,8,1]
-list1.extend(new_list2)
-print("the input list is:",list1)
-
-#Find frequency of 8 (count)
-print("the count of the no.8 is :",list1.count(8))
-
-#find the mean of the list
-Sum = sum(list1)
-mean = (Sum/2)
-print("the mean of the list1 is:",mean)
-
-#find sum (List) + min + Max
-x = max(list1)
-y = min(list1)
-print("the sum of the list1 is {} ,max is {} and min is {}".format(Sum,x,y))
-
-#Find median of the list
-median = (len(list1)//2)
-print("the median of the list is:",median)
-
-#remove duplicates from list and give output in the format of tuple
-del list1[7:]
-list1.remove(8)       
-print("the dupicate removed list is:",list1)
-#convert list in to tuple
-tub = tuple(list1)
-print("the final output is in tuple:",tub,type(tub))
-
-
 
