@@ -97,26 +97,24 @@ jythonpava64hv
 #task5
 #Collect two strings from user
 
-#string1: wikipedia
-#string2: typescript
-
 #input string from user
 str1 = input("enter the string1:",)
-str2 = input("enter the string1:",)
-# assigning variables for ascii code
-a = "p"
-b = "c"
-#converting chracter to integer
+str2 = input("enter the string2:",)
+
+# assigning variables for ascii code using index method
+a = str1[4]
+b = str2[5]
+#converting chracter to integer using ascii code
 x = ord(a)
 y = ord(b)
-#sum of the int output
+#sum of the p and c
 res = x+y
-print(res)
+print("the sum of p and c is:",res)
 
 #output
 enter the string1:wikipedia
 enter the string1:typeprint
-211
+the sum of p anc is:211
 
 #task5
 #collect one string from user:
@@ -170,6 +168,26 @@ print(first_name,last_name)
 enter the first name:sathya
 enter the last name:vijay
 sathya vijay
+
+#task 10
+#mutuation
+#input string from user
+string =input("enter the string:")
+#converting string to list(method1)
+l = list(string)
+l[4] = "k"
+string = ''.join(l)
+print("the output of method1:",string)
+
+#method2
+string="python"
+string=string[:4]+"k"+string[5:]
+print("the output of method2:"string)
+
+#output
+enter the string:python
+the output of method1: pythkn
+the output of method2: pythkn
 
 #task11
 #arithmetic operators(+,-*,/,%,//,**)
