@@ -1,20 +1,4 @@
 #METHOD1:
-#Create an empty list (two ways)
-#Concatenate with [5,6,7,8]
-#add 8,9,1,5,6,7,8,1 elements to that list
-#Find frequency of 8 (count)
-#find the mean of the list
-#find sum (List) + min + Max 
-#Find median of the list
-#remove duplicates from list and give output in the format of tuple
-
-#creating empty list1(method1)
-list1 = []
-
-#creating empty list1(method2)
-list2 = list(())
-
-#Concatenate with [5,6,7,8] in list1
 new_list1 = [5,6,7,8]
 list1.extend(new_list1)
 print(list1)
@@ -30,18 +14,17 @@ print("the input list is:",list1)
 print("the count of the no.8 is :",list1.count(8))
 
 #find the mean of the list
-Sum = sum(list1)
-mean = (Sum/2)
+mean = (sum(list1)/len(list1))
 print("the mean of the list1 is:",mean)
 
 #find sum (List) + min + Max
 x = max(list1)
 y = min(list1)
-print("the sum of the list1 is {} ,max is {} and min is {}".format(Sum,x,y))
+print("the sum of the list1 is {} ,max is {} and min is {}".format(sum(list1),x,y))
 
 #Find median of the list
 list1.sort()
-print(list1)
+print("ascending order of list:",list1)
 mid = (len(list1)//2)
 #the list is even 
 median = (list1[mid-1]+list1[mid])/2
@@ -54,17 +37,16 @@ print("the dupicate removed list is:",dupl_rem)
 tub = tuple(dupl_rem)
 print("the final output is in tuple:",tub,type(tub))
 
-
-
 #output
-
 [5, 6, 7, 8]
 [8, 9, 1, 5, 6, 7, 8, 1]
 the input list is: [5, 6, 7, 8, 8, 9, 1, 5, 6, 7, 8, 1]
 the count of the no.8 is : 3
-the mean of the list1 is: 35.5
+the mean of the list1 is: 5.916666666666667
 the sum of the list1 is 71 ,max is 9 and min is 1
-[1, 1, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9]
+ascending order of list: [1, 1, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9]
 the median of the list is: 6.5
 the dupicate removed list is: [1, 5, 6, 7, 8, 9]
 the final output is in tuple: (1, 5, 6, 7, 8, 9) <class 'tuple'>
+
+
