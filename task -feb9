@@ -131,8 +131,7 @@ print("the keys in tuple format :",tup1)
 #extract key2 values
 key2 = dict1.get(2)
 print("the key2 values are:",key2)
-sum1= sum(key2)
-avreage = (sum1/len(key2))
+avreage = (sum(key2)/len(key2))
 print("the avreage of key2 value is:",avreage)
 
 #OUTPUT
