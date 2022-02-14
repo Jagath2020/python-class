@@ -43,8 +43,6 @@ the index value of 9 is: 8
 the multipleied by 3 tuple is: (1, 4, 5, 6, 7, 8, 9, 1, 4, 5, 6, 7, 8, 9, 1, 4, 5, 6, 7, 8, 9)
 
 
-#SET
-
 #Create two empty sets
 #update set1 with 7,8,9,1,2,3,4,5,0
 #update set2 with 4,5,6,0
@@ -79,16 +77,30 @@ print("the common elements between two sets are:",common)
 #remove 8 from set 1 and set 2 ==> find the inferences
 set1.remove(8)
 print("the elements 8 removed set is:",set1)
-
 #discard 0 from set1 and set2
 set1.discard(0)
 set2.discard(0)             
 print("the zero remove by set1 is {} and set2 is {} ".format(set1,set2))
-
-# OUTPUT
-
+#find the inferences
+dif = set1.difference(set2)
+print("the diffrence of these set is:",dif)
 
 #find collection of both sets ===> set1 and set2
+collection = set1.union(set2)
+print("the collection of both sets are:",collection)
+
+#output
+
+the updated set1 is: {0, 1, 2, 3, 4, 5, 7, 8, 9}
+the updated set2 is: {0, 4, 5, 6}
+False
+the common elements between two sets are: {0, 4, 5}
+the elements 8 removed set is: {0, 1, 2, 3, 4, 5, 7, 9}
+the zero remove by set1 is {1, 2, 3, 4, 5, 7, 9} and set2 is {4, 5, 6} 
+the diffrence of these set is: {1, 2, 3, 7, 9}
+the collection of both sets are: {1, 2, 3, 4, 5, 6, 7, 9}
+
+
 
 #DICTIONARY
 
