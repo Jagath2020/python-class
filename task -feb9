@@ -28,12 +28,10 @@ org = tuple(dup)
 print("the orginal set after removed duplicate is:",org)
 
 #Find the index value of 9 (after concatenation)
-find9 = new_tup[9]
-print("the index value of 9 is:",find9)
+print("the index value of 9 is:",new_tup[9])
 
 #multiply above elements 3 times
-mul = org*3
-print("the multipleied by 3 tuple is:",mul)
+print("the multipleied by 3 tuple is:",org*3)
 
 #OUTPUT
 The common elements between two tuples : {8, 5, 6, 7}
@@ -77,11 +75,12 @@ print("the common elements between two sets are:",common)
 #remove 8 from set 1 and set 2 ==> find the inferences
 set1.remove(8)
 print("the elements 8 removed set is:",set1)
+
 #discard 0 from set1 and set2
 set1.discard(0)
 set2.discard(0)             
 print("the zero remove by set1 is {} and set2 is {} ".format(set1,set2))
-#find the inferences
+#find the differences
 dif = set1.difference(set2)
 print("the diffrence of these set is:",dif)
 
