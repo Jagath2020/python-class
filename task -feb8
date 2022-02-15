@@ -32,11 +32,10 @@ median = (list1[mid-1]+list1[mid])/2
 print("the median of the list is:",median)
 
 #remove duplicates from list and give output in the format of tuple
-dupl_rem = list(set(list1))
-print("the dupicate removed list is:",dupl_rem)
+dup = set(list1)
+print("the dupicate removed list is:",dup)
 #convert list in to tuple
-tub = tuple(dupl_rem)
-print("the final output is in tuple:",tub,type(tub))
+print("the final output is in tuple:",tuple(dup)))
 
 #output
 [5, 6, 7, 8]
