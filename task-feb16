@@ -4,18 +4,18 @@
 year = int(input("enter the year:"))
 
 #condition
-if year%4==0 and year%400==0:
-    print(True)
-elif year%100==0:
-    print(False)
+if year%4==0 and year%100!=0:
+    print("LEAP YEAR")
+if year%4==0 and year%400=0:
+    print("LEAP YEAR IN CENTURY")
 else:
-    print("none")
+    print("NOT A LEAP")
           
 #output
 enter the year:2000
-True
+LEAP
 enter the year:1900
-False
+NOT A LEAP
 
 #TASK2
 #if nis even and in the inclusive range of 2to6( print Not Weird)
@@ -98,6 +98,8 @@ if mark>=60 and mark<=69:
     print("Grade D")
 if mark>=50 and mark<=59:
     print("Grade E")
+if mark<50:
+    print("FAIL")
 
 elif mark>100:
     print("invalid mark")
