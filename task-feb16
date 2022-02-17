@@ -1,0 +1,133 @@
+#TASK1
+#find a leap year
+#input assignment get the year from user
+year = int(input("enter the year:"))
+
+#condition
+if year%4==0 and year%400==0:
+    print(True)
+elif year%100==0:
+    print(False)
+else:
+    print("none")
+          
+#output
+enter the year:2000
+True
+enter the year:1900
+False
+
+#TASK2
+#if nis even and in the inclusive range of 2to6( print Not Weird)
+#if n is even and in the inclusive range of 6to20 (print Weird)
+#if n is even and greater than 20( print Not Weird)
+#get the number from user
+
+n = int(input("enter the number:"))
+#if n is odd, print Weird
+if n%2==1:
+    print("Weired")
+elif n %2==0 and(n>=2 and n<=6):
+    print("not Weired")
+elif n %2==0 and (n>=6 and n<=20):
+    print("Weired")
+elif n%2==0 and (n>20):
+    print("Not Weired")
+#output
+enter the number:3
+Weired
+enter the number:4
+not Weired
+enter the number:16
+not Weired
+
+#TASK3
+#Fizz buzz
+#Get one number from user
+#Multiple of 3 ==> Fizz
+#Multiple of 5 ===> buzz
+#Multiple of 3 and 5 ===> Fizzbuzz
+#None ==> Invalid number
+
+#input int no from user
+
+number = int(input("enter the number:"))
+
+if number%3==0 and number%5==0:
+    print("fizzbuzz")
+elif number%3==0 :
+    print("fizz")
+elif number%5==0:
+    print("buzz")
+    
+else:
+    print("invalid number")
+    
+#output
+enter the number:15
+fizzbuzz
+enter the number:18
+fizz
+enter the number:25
+buzz
+
+TASK4
+#mark 0 to 100 Valid otherwise invalid mark
+
+#50 + PASS otherwise FAIL
+#90 to 100 ===> A 
+#80 to 89 ===> B
+#70 to 79 ===> C
+#60 to 69 ===> D
+#50 to 59 ===> E
+
+#get the mark from user
+mark = int(input("enter the mark is:"))
+#conditions
+if mark>=0 and mark<=100:
+    print ("valid mark")
+if mark>=50 and mark <=100:
+    print("PASS")
+if mark>=90 and mark<=100:
+    print("Grade A")
+if mark>=80 and mark<=89:
+    print("Grade B")
+if mark>=70 and mark<=79:
+    print("Grade  C")
+if mark>=60 and mark<=69:
+    print("Grade D")
+if mark>=50 and mark<=59:
+    print("Grade E")
+
+elif mark>100:
+    print("invalid mark")
+    
+ #output   
+enter the mark is:79
+valid mark
+PASS
+Grade  C
+
+TASK5
+# get the marks from user
+
+mark1 = int(input("enter the mark1:"))
+mark2 = int(input("enter the mark2:"))
+mark3 = int(input("enter the mark3:"))
+#find avreage of marks
+avreage = ((mark1+mark2+mark3)/3)
+
+if avreage>90:
+    print("grade A")
+elif avreage>75:
+    print("grade B")
+elif avreage>50:
+    print("grade C")
+else:
+     print("grade D")     
+
+#output
+enter the mark1:79
+enter the mark2:80
+enter the mark3:67
+grade B
