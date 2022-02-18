@@ -1,0 +1,177 @@
+#TASK1
+
+#Using Range function  print multiples of 5 from 0 to 75
+print("mutiple of 5 is :",list(range(0,75,5)))
+
+#Using Range function  print multiples of 8 from 0 to 72
+print("mutiple of 8 is :",list(range(0,72,8)))
+
+#Using Range function  print multiples of 5 from 75 to 0
+print("mutiple of 5 in reverse is :",list(range(75,0,-5)))
+
+#Using Range function  print multiples of 8 from 96 to 72     
+print("mutiple of 8 in reverse is :",list(range(96,72,-8)))
+
+#OUTPUT
+mutiple of 5 is : [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70]
+mutiple of 8 is : [0, 8, 16, 24, 32, 40, 48, 56, 64]
+mutiple of 5 in reverse is : [75, 70, 65, 60, 55, 50, 45, 40, 35, 30, 25, 20, 15, 10, 5]
+mutiple of 8 in reverse is : [96, 88, 80]
+
+#TASK2
+:
+#Get a dynamic list from user
+
+#get the elements from user
+list1 =[]
+n = int(input("enter no of the elements:"))
+
+#conditions
+for i in range(0,n):
+    val = int(input("enter the elements for list :"))
+    list1.append(val)
+    
+#print the final list                
+print("The final list is :",list1)
+
+#OUTPUT
+enter no of the elements:4
+enter the elements for list :1
+enter the elements for list :7
+enter the elements for list :4
+enter the elements for list :78
+The appended list is : [1, 7, 4, 78]
+
+#TASK3
+
+#assigning empty dictionary to get keys and values
+dict1 ={}
+#input elements from user
+n = int(input("enter the number of keys:"))
+
+#conditions
+for i in range(0,n):
+    key = int(input("enter the keys:"))
+    val = input("enter the value :")
+    dict1[key]= val
+    
+#print the final dict
+print(dict1)
+
+#OUTPUT
+
+enter the number of keys:3
+enter the keys:1
+enter the value :aaaa
+enter the keys:5
+enter the value :gggg
+enter the keys:6
+enter the value :python
+{1: 'aaaa', 5: 'gggg', 6: 'python'}
+
+#TASK4
+
+#get two integers from users
+list1 = []
+n1 = int(input("enter the no1:"))
+n2 = int(input("enter the no2:"))
+for i in range(n1,n2):
+    if (i%8==0):
+        list1.append(i)
+
+#print the multiple of 8 
+print("multiple of 8 is:",list1)
+
+#OUTPUT
+
+enter the no1: 20
+enter the no2: 100
+multiple of 8 is: [24, 32, 40, 48, 56, 64, 72, 80, 88, 96]
+
+#TASK5
+
+#Input:
+Li1 = [3,4,5,2,7,8,9,10]
+
+#empty list for appending odd and even
+li_odd = []
+li_even =[]
+
+#condition for odd and even
+for i in Li1:
+    if i%2==1:
+        li_odd.append(i)
+    else:
+         li_even.append(i)
+         
+#print odd values
+print("ODD : ",li_odd)
+#print even values
+print("EVEN :",li_even)
+
+#OUTPUT
+ODD :  [3, 5, 7, 9]
+EVEN : [4, 2, 8, 10]
+
+#TASK6
+
+li1 = [-1, -7,8,10,20,21,17,28,-3,0,0,]
+    
+#input empty list
+x = []
+y = []
+z = []
+
+for i in li1:
+    if i<0:
+        x.append(i)
+                      
+    elif i>0:
+        y.append(i)
+    else:
+        z.append(i)
+                
+#print pos,neg and zero elements
+print("The positive elements are:",y)
+print("The negative elements are:",x)
+print("The zeros are",z)
+
+#print the count of pos,neg and zero lists
+print("number of positive elements is :",len(x))
+print("number of negative elements is:",len(y))
+print("number of zero is:",len(z))
+
+#OUTPUT
+
+The positive elements are: [8, 10, 20, 21, 17, 28]
+The negative elements are: [-1, -7, -3]
+The zeros are [0, 0]
+number of positive elements is : 3
+number of negative elements is: 6
+number of zero is: 2
+
+
+#TASK7
+
+#print in range function
+
+print(list(range(5)))
+print(list(range(1,5)))
+print(list(range(5,20)))
+print(list(range(-5,5)))
+print(list(range(10,100,10)))
+print(list(range(10,0,-1)))
+print(list(range(-5,5,3)))
+print(list(range(10,100,5)))
+print(list(range(10,0,-2)))
+
+#OUTPUT
+[0, 1, 2, 3, 4]
+[1, 2, 3, 4]
+[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+[-5, -4, -3, -2, -1, 0, 1, 2, 3, 4]
+[10, 20, 30, 40, 50, 60, 70, 80, 90]
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+[-5, -2, 1, 4]
+[10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95]
+[10, 8, 6, 4, 2]
