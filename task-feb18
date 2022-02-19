@@ -1,28 +1,35 @@
 
-#User Def functions (4)
-#Write function to concatenate three strings
-#Write a function multiply three different integers and return a int
-#Write a function to return middle char of the string
-#write a function to return whether middle character is vowel or not 
-
+#task1 
 #Write function to concatenate three strings
 
 def my_function(x,y,z):
     return x+y+z
 print(my_function("python","java","c"))
 
+#output
+pythonjavac
+
+#task2
 #Write a function multiply three different integers and return a int
 def my_function(x,y,z):
      return x*y*z
 print(my_function(4,7,6))
 
+#output
+168
+
+#task3
 #Write a function to return middle char of the string
 def my_function(string):
     return string[(len(string)//2)]
 print(my_function("python"))
 print(my_function("bbb"))
-print(my_function("java"))
 
+#ouput
+h
+b
+
+#task4
 #write a function to return whether middle character is vowel or not
 
 #vowels = ('a','e','i','o','u')
@@ -39,4 +46,10 @@ print(my_function("sathyaa"))
 print(my_function("nikesh"))
 print(my_function("jagatheesh"))
 
-
+#output
+h
+not vowel
+e
+vowel
+h
+not vowel
